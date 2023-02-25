@@ -9,6 +9,7 @@
 (b) run `winget install --id Git.Git -e --source winget` from Command Prompt.
 ## 3. Install Whisper
 3.1 Go to "Anaconda PowerShell Prompt (Anaconda3)".
+
 <img src="https://github.com/joechau29/InstallOpenAIWhisper/blob/main/3.1.png" width=300>
 3.2 Install whisper
 > (base) PS C:\Users\joechau29> `pip install git+https://github.com/openai/whisper.git`
@@ -17,6 +18,7 @@
 
 # 4. Install Chocolatey
 4.1 Run "Windows PowerShell",  as Administrator.
+
 <img src="https://github.com/joechau29/InstallOpenAIWhisper/blob/main/4.1.png" width=300>
 4.2 Install the Chocolatey.
 
