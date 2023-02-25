@@ -5,8 +5,10 @@
 1.2 Install it.
 ## 2. Install Git
 (a) Download 64-bit Git from https://git-scm.com/download/win
+
 **OR**
-(b) run `winget install --id Git.Git -e --source winget` from Command Prompt.
+
+(b) run `winget install --id Git.Git -e --source winget` from Windows PowerShell as administrator.
 ## 3. Install Whisper
 3.1 Go to "Anaconda PowerShell Prompt (Anaconda3)".
 
@@ -25,4 +27,7 @@
 > PS C:\windows\system32>`Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))`
 
 # 5. Install ffmpeg
-> (base) PS C:\Users\joechau29> `choco install ffmpeg`
+1. Install ffmpeg in Windows PowerShell as administrator
+> PS C:\windows\system32> `choco install ffmpeg`
+
+2. Type `Y` and  press `Enter` for " "Do you want to run the script?"
