@@ -1,9 +1,3 @@
-**Table of Contents**
-
-[TOCM]
-
-[TOC]
-
 ## Install OpenAI Whisper in Virtual Environment
 
 ### 1. Install Anaconda
