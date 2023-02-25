@@ -40,7 +40,8 @@
 
 <img src="https://github.com/joechau29/InstallOpenAIWhisper/blob/main/6.1.png" width=300>
 6.2 Install whisper
->**(venv)** (base) PS C:\Users\frog> `pip install git+https://github.com/openai/whisper.git`
+
+> **(venv)** (base) PS C:\Users\frog> `pip install git+https://github.com/openai/whisper.git`
 
 <img src="https://github.com/joechau29/InstallOpenAIWhisper/blob/main/6.2.png" width=400>
 
