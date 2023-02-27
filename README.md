@@ -32,7 +32,7 @@
 
 5.2 Execute `python -m venv C:\Users\frog\venv` to create the virtual environment.
 
-5.3 Execute `C\Users\frog\venv\activate.bat` to activate the virtual environment.  The prompt will be changed as below: -
+5.3 Execute `C:\Users\frog\venv\Scripts\activate.bat` to activate the virtual environment.  The prompt will be changed as below: -
 > **(venv)** (base) C:\Users\frog>
 
 ### 6. Install Whisper
@@ -46,7 +46,7 @@
 <img src="https://github.com/joechau29/InstallOpenAIWhisper/blob/main/6.2.png" width=400>
 
 ## Run Open AI Whisper
-1.1 Activate virtual environment.  **Anaconda PowerShell** `C\Users\frog\venv\activate.bat`
+1.1 Activate virtual environment.  **Anaconda PowerShell** `C:\Users\frog\venv\Scripts\activate.bat`
 
 1.2 Execute `whisper [source file] --model [tiny/base/small/medium/large][.en]`
 
@@ -64,7 +64,7 @@ Convert a mp4 and the content is in multi-languages
 
 Convert a mp4 in Cantonese with assent
 
-`whisper c:\Users\frog\gorilla_speak_chinglish.mp4 --model small`
+`whisper c:\Users\frog\gorilla_speak_chinglish_with_assent.mp4 --model large`
 
 References: 
 1. https://github.com/openai/whisper/blob/main/README.md
